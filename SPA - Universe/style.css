@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+:root{
+  font-size: 62.5%;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  background-image: url('./img/home.png') ;
+  background-size: 100% 100%;
+  height: 90vh;
+}
+
+nav{
+  margin: 4rem 7.2rem;
+  display: flex;
+  align-items: center;
+  gap:3.2rem
+}
+
+nav a{
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: hsla(240, 7%, 78%, 1);
+  ;
+}
+
+#app{
+  display: grid;
+  place-content: center;
+  min-height: 50vh;
+}
+
+h1 , p {
+  color: white;
+}
+
+.home{
+  display: grid;
+  place-content: center;
+  gap: 2.4rem;
+  justify-items: center;
+}
+.home h1{
+  font-size: 4.8rem;
+  text-align: left;
+  color: white;
+}
+.home button{
+  background: none ;
+  border-color: white;
+  color: white;
+
+  width: 19.5rem;
+  height: 4.8rem;
+
+}
+
+.universo , .exploracao{
+  width: 64.8rem;
+}
+h1{
+  font-size: 4.8rem;
+  margin-bottom: 1.6rem;
+}
+p{
+  font-size: 1.8rem;
+}
